@@ -13,5 +13,9 @@ True or False: Systems that are dynamic are systems where time plays a role:
 - False
 
 
+True or False: Stocastic Models include randomness:
+-True
+-False
+
 ## Problem 2, short answer
 Why don't you want to model a discrete system with a continuous model? 
