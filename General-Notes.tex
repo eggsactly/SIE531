@@ -1,0 +1,80 @@
+\documentclass[12pt]{article}
+\usepackage{lingmacros}
+\usepackage{tree-dvips}
+\usepackage{amsmath}
+\usepackage{accents}
+\newcommand{\ubar}[1]{\underaccent{\bar}{#1}}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\begin{document}
+
+\title{SIE 531 Comprehensive Notes}
+\date{April 17, 2018}
+\maketitle
+
+\section*{Definitions}
+
+\begin{itemize}
+
+\item Model: A method to study and analyze a system.
+
+\item Physical Model: Physical replica or scale model of the system. 
+
+\item Analytical Model: A mathmatical model that represents a quantity in the system as an equation.
+
+\item Simulation Model: Highest fidelity model, used when the system characteristics are \emph{complex, dynamic, uncertain}.
+
+\item Static: Where time plays no role.
+
+\item Dynamic: Where time plays a role. 
+
+\item Continuous: Where the state of the system can change instantaniously over time.
+
+\item Discrete: Where the state of the system can only change at separated points in time.
+
+\item Deterministic: Where the state of the system can be found from knowing the initial conditions of the system.
+
+\item Stochastic: Where the state of the system is uncertain. 
+
+\item Validation: Does the model follow reality?
+
+\item Verification: Does the model work the way it was intended? 
+
+\item Sample Path: A record (an instance realization) of TD behavior of the system.
+
+\item Entity: Dynamic objects in the system, such as a customer. 
+
+\item Attribute: A variable characterizing an entity. 
+
+\item Variable: Information that reflects some characteristic of the system. 
+
+\item Resource: A type of object that can be seized and released by an object to perform a task.
+
+\item Queue: An area for an Entity to wait while a Resource become available
+
+\item Statistical Accumulators: Variables needed for storing statistical information necessary to estimate desired performance measures. 
+
+\item Event: Something that happens at an instant of simulated time that may change a system state. 
+
+\item Initialization Event: Sets things up in the system.
+
+\item Arrival Event: When a new Entity enters the system.
+
+\item Departure: When an Entity leaves the system.
+
+\item End: When the simulation stops.
+
+\item Event Calendar: Where future events are stored for the system. 
+
+\item Simulation Clock: The current value of simulation clock TNOW.
+
+\item Scheduling: Creating a future event and placing it in the event calendar. 
+
+\end{itemize}
+
+\end{document}
