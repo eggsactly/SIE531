@@ -77,4 +77,35 @@
 
 \end{itemize}
 
+\section*{Flow Control of Simulation}
+
+\begin{enumerate}
+\item Initialize
+\begin{itemize}
+\item Initialize all data structs
+\item Schedule the first events
+\end{itemize}
+\item Main (Feeds back and forth to timing routine)
+\begin{enumerate}
+\item Initialize
+\item Timing Routine
+\item Event Routine
+\end{enumerate}
+\item Timing Routine
+\begin{enumerate}
+\item Grab event
+\item Update T-NOW with even time of the grabed event
+\item send the event information
+\end{enumerate}
+\item Event Routine (Goes to end condition satisfied, which goes back to main)
+\begin{enumerate}
+\item ? Watch lecture 1/26/18 at 30 mins in to get this info
+\item Update statistical counter 
+\item ?
+\end{enumerate}
+\end{enumerate}
+
+
+
+
 \end{document}
