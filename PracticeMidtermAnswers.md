@@ -8,6 +8,9 @@ Simulation is needed when the system under study has the following characteristi
 Systems that are dynamic are systems where time plays a role:
 - True
 
+True or False: Stocastic Models include randomness:
+-True
+
 
 ## Problem 2, short answer
 Why don't you want to model a discrete system with a continuous model? 
