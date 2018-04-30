@@ -75,6 +75,18 @@
 
 \item Scheduling: Creating a future event and placing it in the event calendar. 
 
+\item Random Variables: A variable having a statistical distribution
+
+\item Random Number: Any number ~ U(0,1)
+
+\item Random Variate: Observation, any number following a statistical distribution
+
+\item RNG: Random Number Generator
+
+\item Empirical Distribution: Use the data directly
+
+\item Theoretical Distribution: Fun the best fitted theoretical distribution
+
 \end{itemize}
 
 \section*{Flow Control of Simulation}
@@ -105,7 +117,15 @@
 \end{enumerate}
 \end{enumerate}
 
+\section*{Linear Congruential Method}
+$$z_i=(aZ_{i-1}+c)mod(m)$$
+$Z_0$ is a seed, $a$: is a multiplier, $c$: increment, $m$: modulus. 
 
+$$U_i=\frac{Z_i}{m}$$
 
+\section*{Chi-Squared Test}
+$${\chi}^2=\sum_{j=1}^k \frac{(N_j-E_j)^2}{E_j}$$
+
+$N_j$ is the size of the Bin, $E_j$ is the expected bin size from theoretical dist. 
 
 \end{document}
