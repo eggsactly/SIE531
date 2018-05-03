@@ -61,3 +61,16 @@ NO
 
 Does CRN Reduce CI in D column compared when we don't use CRN?
 YES
+
+
+## Problem 3, Distribution Function
+
+Given the following collected data, make a cumulative distribution function based on it:
+{1, 3, 4, 3, 2}.
+
+Answer:
+1. Order the set: {1, 2, 3, 3, 4}
+2. The number of different options is the number of steps: 4. 
+3. Put each slot on the y axis: {0.25, 0.50, 0.75, 1.00}
+4. Plot: ![Plot answer for Problem 3](distributionFunctionImage.svg)
+
