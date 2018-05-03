@@ -6,6 +6,8 @@ Welches Method.
 
 
 ## Problem 2, Short Answers:
+
+
 Consider with the results recorded in a table such as the one below:
 | A Replication (i)| B Queueing time in one server| C Queueing time in two server| D Difference (B-C) |
 | :-----------: |:-------------:| :----:| :----: |

@@ -6,6 +6,8 @@ When I have two similar systems I want to compare, but I have different numbers 
 
 ## Problem 2, Short Answers:
 Consider with the results recorded in a table such as the one below:
+
+
 | A Replication (i)| B Queueing time in one server| C Queueing time in two server| D Difference (B-C) |
 | :-----------: |:-------------:| :----:| :----: |
 | 1      | XX1 | YY1 | ZZ1 |
