@@ -63,7 +63,7 @@ Does CRN Reduce CI in D column compared when we don't use CRN?
 YES
 
 
-## Problem 3, Distribution Function
+## Problem 3, Distribution Function:
 
 Given the following collected data, make a cumulative distribution function based on it:
 {1, 3, 4, 3, 2}.
@@ -78,7 +78,7 @@ Provide a theoretical distribution of the data:
 
 CONT ( 0, 1, 0.25, 2, 0.50, 3, 0.75, 3, 1.00, 4) 
 
-Remember: The continuous distribution is a set of (y, x) pairs, in order in SIE 531. 
+Remember: The continuous distribution in SIE 531 is a set of (y, x) pairs, in order. 
 
 Given this data and the linear congruential generator below, fill in the following table
 ![Z_i=(3Z_{i-1})mod10](linear_congruential_generator.png)
@@ -90,4 +90,34 @@ Given this data and the linear congruential generator below, fill in the followi
 | 2 |  1  | 0.1 | 1.4 |
 | 3 |  2  | 0.2 | 1.8 |
 
+
+## Problem 4 Goodness of Fit (Chi-square test): 
+Suppose we performed data collection on the time that customers spend at a 
+McDonerds order line. The following data is in the chart below:
+
+{0.1, 0.2, 0.7, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 2.1, 2.2, 2.3, 2.4, 2.5, 3.1, 3.2} 
+
+Use the Chi-Squared test to see how well it fits the theoretical distribution
+TRIA(0, 2, 4). Assume that K=4 and alpha is 0.05. Note that the X^2_{3, 0.05} 
+is 7.81, N=16. 
+
+![\chi^2=\sum_{j=1}^k\frac{(N_j-E_j)^2}{E_j}](ChiSquaredTest.png)
+
+Where N _j is the actual distribution and E _j is the theoretical distribution. 
+
+| j | 1 | 2 | 3 | 4 | 
+|:-:|:-:|:-:|:-:|:-:|
+|Nj | 3 | 6 | 5 | 2 |
+|Ej | 2 | 6 | 6 | 2 |
+|X^2| 0.5 | 0.0 | 0.166 | 0.0 | 
+
+X^2 = 0.5 + 0.0 + 0.166 + 0 = 0.666 
+
+Since 
+0.666 &lt; 7.81 
+
+Failure to reject H0, so it is a good fit.
+
+
+ 
 

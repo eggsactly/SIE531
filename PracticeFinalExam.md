@@ -83,3 +83,18 @@ Given this data and the linear congruential generator below, fill in the followi
 | 2 |     |     |     |
 | 3 |     |     |     |
 
+## Problem 4 Goodness of Fit (Chi-square test): 
+Suppose we performed data collection on the time that customers spend at a 
+McDonerds order line. The following data is in the chart below:
+
+{0.1, 0.2, 0.7, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 2.1, 2.2, 2.3, 2.4, 2.5, 3.1, 3.2} 
+
+Use the Chi-Squared test to see how well it fits the theoretical distribution
+TRIA(0, 2, 4). Assume that K=4 and alpha is 0.05. Note that the X^2_{3, 0.05} 
+is 7.81, N=16. 
+
+![\chi^2=\sum_{j=1}^k\frac{(N_j-E_j)^2}{E_j}](ChiSquaredTest.png)
+
+Where N _j is the actual distribution and E _j is the theoretical distribution. 
+
+
