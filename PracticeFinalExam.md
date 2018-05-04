@@ -65,3 +65,21 @@ Does CRN Reduce CI in D column compared when we don't use CRN?
 
 Given the following collected data, make a cumulative distribution function based on it:
 {1, 3, 4, 3, 2}.
+
+
+
+Provide a theoretical distribution of the data:
+
+CONT (                                          ) 
+
+
+Given this data and the linear congruential generator below, fill in the following table
+![Z_i=(3Z_{i-1})mod10](linear_congruential_generator.png)
+
+| i | Z_i | U_i | Service Time |
+|:-:|:---:| :-: | :-: |
+| 0 |  5  | N/A | N/A |
+| 1 |     |     |     |
+| 2 |     |     |     |
+| 3 |     |     |     |
+

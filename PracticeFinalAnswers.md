@@ -71,6 +71,23 @@ Given the following collected data, make a cumulative distribution function base
 Answer:
 1. Order the set: {1, 2, 3, 3, 4}
 2. The number of different options is the number of steps: 4. 
-3. Put each slot on the y axis: {0.25, 0.50, 0.75, 1.00}
+3. Put each step on the y axis: {0.25, 0.50, 0.75, 1.00}
 4. Plot: ![Plot answer for Problem 3](distributionFunctionImage.svg)
+
+Provide a theoretical distribution of the data:
+
+CONT ( 0, 1, 0.25, 2, 0.50, 3, 0.75, 3, 1.00, 4) 
+
+Remember: The continuous distribution is a set of (y, x) pairs, in order in SIE 531. 
+
+Given this data and the linear congruential generator below, fill in the following table
+![Z_i=(3Z_{i-1})mod10](linear_congruential_generator.png)
+
+| i | Z_i | U_i | Service Time |
+|:-:|:---:| :-: | :-: |
+| 0 |  5  | N/A | N/A |
+| 1 |  4  | 0.4 | 2.6 |
+| 2 |  1  | 0.1 | 1.4 |
+| 3 |  2  | 0.2 | 1.8 |
+
 
