@@ -116,4 +116,17 @@ When do you want to use the Batch Means Method over the Truncated Method?
 ## Problem 7 Non-stationary Process, Short Answer:
 How can you achieve time-varying arrival rates?
 
+## Problem 8 How many replications, Math Problem:
+We ran a simulation with 20 replications, with a measured variance of 3.81 and
+a measured half width of 1.78. How man runs are needed to achieve a half width
+of 0.5 within a 95% confidence interval? Use both methods:
+
+Hint: The Z dist at alpha of 0.05 is 1.96. 
+
+Method 1:
+![n=\frac{z^2 S_0^2}{h^2}](method1.png)
+
+Method 2:
+![n=\frac{h_0^2 n_0}{h^2}](method2.png)
+
 

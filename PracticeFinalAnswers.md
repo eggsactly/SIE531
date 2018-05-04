@@ -144,4 +144,31 @@ You can use the thinning method, which has the generator produce an output at
 full rate, and when there are times when the output shall be smaller some of 
 the output will be discarded as needed. 
 
+## Problem 8 How many replications, Math Problem:
+We ran a simulation with 20 replications, with a measured variance of 3.81 and
+a measured half width of 1.78. How man runs are needed to achieve a half width
+of 0.5 within a 95% confidence interval? Use both methods:
+
+Hint: The Z dist at alpha of 0.05 is 1.96. 
+
+Method 1:
+![n=\frac{z^2 S_0^2}{h^2}](method1.png)
+
+Method 2:
+![n=\frac{h_0^2 n_0}{h^2}](method2.png)
+
+S_0 = 3.81
+z = 1.96
+h_0 = 1.78
+h = 0.5
+n_0 = 20
+
+Solve for method 1:
+
+n = 1.96^2 * 3.81^2 / 0.5^2 = 3.8416 * 14.5161 / 0.25 = 222
+
+Solve for method 2: 
+
+n = 1.78^2 * 20 / 0.5^2 = 3.1684 * 20 / 0.25 = 254
+
 
