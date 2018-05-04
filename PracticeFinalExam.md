@@ -4,7 +4,7 @@
 When I have two similar systems I want to compare, but I have different numbers of replications, what method should I use? 
 
 
-## Problem 2, Short Answers:
+## Problem 2, Fill in the Blanks:
 Consider with the results recorded in a table such as the one below:
 
 
@@ -61,7 +61,7 @@ Does CRN Reduce CI in C column compared when we don't use CRN?
 Does CRN Reduce CI in D column compared when we don't use CRN?
 
 
-## Problem 3, Distribution Function
+## Problem 3, Distribution Function, Math Problem: 
 
 Given the following collected data, make a cumulative distribution function based on it:
 {1, 3, 4, 3, 2}.
@@ -83,7 +83,7 @@ Given this data and the linear congruential generator below, fill in the followi
 | 2 |     |     |     |
 | 3 |     |     |     |
 
-## Problem 4 Goodness of Fit (Chi-square test): 
+## Problem 4 Goodness of Fit (Chi-square test), Math Problem: 
 Suppose we performed data collection on the time that customers spend at a 
 McDonerds order line. The following data is in the chart below:
 
@@ -98,7 +98,7 @@ is 7.81, N=16.
 Where N _j is the actual distribution and E _j is the theoretical distribution. 
 
 
-## Problem 5 Simulation Process
+## Problem 5 Simulation Process, Fill in the Blanks:
 
 ![Basic simulation proces](final_prob5_question.svg)
 
@@ -109,4 +109,7 @@ Fill in the blanks:
 3. 
 4. 
 5. 
+
+## Problem 6 Output Data Analysis, Short Answer: 
+When do you want to use the Batch Means Method over the Truncated Method?
 

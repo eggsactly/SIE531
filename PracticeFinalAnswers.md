@@ -5,7 +5,7 @@ When I have two similar systems I want to compare, but I have different numbers 
 Welches Method.
 
 
-## Problem 2, Short Answers:
+## Problem 2, Fill in the Blanks:
 Consider with the results recorded in a table such as the one below:
 
 
@@ -63,7 +63,7 @@ Does CRN Reduce CI in D column compared when we don't use CRN?
 YES
 
 
-## Problem 3, Distribution Function:
+## Problem 3, Distribution Function, Math Problem:
 
 Given the following collected data, make a cumulative distribution function based on it:
 {1, 3, 4, 3, 2}.
@@ -91,7 +91,7 @@ Given this data and the linear congruential generator below, fill in the followi
 | 3 |  2  | 0.2 | 1.8 |
 
 
-## Problem 4 Goodness of Fit (Chi-square test): 
+## Problem 4 Goodness of Fit (Chi-square test), Math Problem:
 Suppose we performed data collection on the time that customers spend at a 
 McDonerds order line. The following data is in the chart below:
 
@@ -119,7 +119,7 @@ Since
 Failure to reject H0, so it is a good fit.
 
 
-## Problem 5 Simulation Process
+## Problem 5 Simulation Process, Fill in the Blanks:
 
 ![Basic simulation proces](final_prob5_question.svg)
 
@@ -130,5 +130,11 @@ Fill in the blanks:
 3. Timing Routine
 4. Update TNOW
 5. Send Event Info
+
+## Problem 6 Output Data Analysis, Short Answer: 
+When do you want to use the Batch Means Method over the Truncated Method?
+
+You would want to use the Batch Means Method over the Truncated Method when the
+warm up time of a simulation is too long to efficiently do replications. 
 
 
