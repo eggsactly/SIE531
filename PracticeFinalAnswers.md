@@ -137,4 +137,11 @@ When do you want to use the Batch Means Method over the Truncated Method?
 You would want to use the Batch Means Method over the Truncated Method when the
 warm up time of a simulation is too long to efficiently do replications. 
 
+## Problem 7 Non-stationary Process, Short Answer:
+How can you achieve time-varying arrival rates?
+
+You can use the thinning method, which has the generator produce an output at 
+full rate, and when there are times when the output shall be smaller some of 
+the output will be discarded as needed. 
+
 

@@ -113,3 +113,7 @@ Fill in the blanks:
 ## Problem 6 Output Data Analysis, Short Answer: 
 When do you want to use the Batch Means Method over the Truncated Method?
 
+## Problem 7 Non-stationary Process, Short Answer:
+How can you achieve time-varying arrival rates?
+
+
