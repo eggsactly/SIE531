@@ -119,5 +119,16 @@ Since
 Failure to reject H0, so it is a good fit.
 
 
- 
+## Problem 5 Simulation Process
+
+![Basic simulation proces](final_prob5_question.svg)
+
+Fill in the blanks:
+
+1. Timing Routine
+2. Event Routine
+3. Timing Routine
+4. Update TNOW
+5. Send Event Info
+
 

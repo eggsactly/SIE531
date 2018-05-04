@@ -98,3 +98,15 @@ is 7.81, N=16.
 Where N _j is the actual distribution and E _j is the theoretical distribution. 
 
 
+## Problem 5 Simulation Process
+
+![Basic simulation proces](final_prob5_question.svg)
+
+Fill in the blanks:
+
+1. 
+2. 
+3. 
+4. 
+5. 
+
